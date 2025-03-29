@@ -1,0 +1,45 @@
+/* Default styles for larger screens */
+.custom-img {
+  border-radius: 0.4rem 0rem 0 0.4rem;
+}
+
+.customPadding {
+  padding: 1.5rem 0rem;
+}
+.custom-row {
+  display: flex;
+}
+.custom-horizontal-padding {
+  padding: 0 1.5rem;
+}
+
+.dishImage {
+  height: 50vh;
+  object-fit: cover;
+}
+@media screen and (max-width: 1024px) {
+  .dishImage {
+    height: 30vh;
+    object-fit: cover;
+  }
+}
+
+/* Styles for screens <= 450px */
+@media screen and (max-width: 550px) {
+  .custom-img {
+    border-radius: 0.4rem 0.4rem 0 0rem !important;
+  }
+  .custom-row {
+    display: block !important;
+  }
+  .custom-horizontal-padding {
+    padding: 0rem;
+  }
+  .customPadding {
+    padding: 1.2rem 1rem !important;
+  }
+  .dishImage {
+    height: 50vh;
+    object-fit: cover;
+  }
+}
