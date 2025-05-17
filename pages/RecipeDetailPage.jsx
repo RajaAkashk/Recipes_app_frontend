@@ -56,7 +56,7 @@ function RecipeDetailPage() {
                     <p className="fs-4 fw-medium">Instructions</p>
                     <ol>
                       {recipeData?.instructions
-                        ?.split(". ")
+                        ?.split(", ")
                         ?.map((step, index) =>
                           step ? (
                             <li key={index} className="fs-5">

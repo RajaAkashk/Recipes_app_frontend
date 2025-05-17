@@ -81,9 +81,10 @@ function AddRecipePage() {
             className="form-control"
             name="ingredients"
             value={recipe.ingredients}
-            placeholder="Separated by comas and space"
+            placeholder="Separated by commas and space, e.g., oil, chilli, potato"
             onChange={handleChange}
             required
+             rows={4}
           />
         </div>
 
@@ -93,9 +94,10 @@ function AddRecipePage() {
             className="form-control"
             name="instructions"
             value={recipe.instructions}
-            placeholder="Separated by comas and space"
+            placeholder="Separated by commas and space, e.g., Heat oil, Add onions, Cook until golden"
             onChange={handleChange}
             required
+             rows={4}
           />
         </div>
 

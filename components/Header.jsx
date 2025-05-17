@@ -7,7 +7,7 @@ function Header() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
           <NavLink className="navbar-brand fw-medium" to="/">
-            Recipe Organiser
+            RecipeNest
           </NavLink>
           <button
             className="navbar-toggler"
